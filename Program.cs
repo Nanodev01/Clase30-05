@@ -1,5 +1,5 @@
 using system; 
-namespace myapp
+namespace gallinero
 {
     class Program
     {
