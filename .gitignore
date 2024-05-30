@@ -1,6 +1,8 @@
 # Carpeta de binarios generados
 bin/
 obj/
+.idx/
+
 
 # Archivos de caché y archivos temporales
 *.user
@@ -20,7 +22,6 @@ obj/
 *.vspscc
 *.vssscc
 *.scc
-idx/
 
 # Archivos de salida de la aplicación
 *.Publish.xml
