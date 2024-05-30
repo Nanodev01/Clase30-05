@@ -1,0 +1,63 @@
+# Carpeta de binarios generados
+bin/
+obj/
+
+# Archivos de caché y archivos temporales
+*.user
+*.vs
+*.suo
+*.cache
+*.bak
+*.tmp
+
+# Archivos de compilación
+*.exe
+*.dll
+*.pdb
+
+# Archivos generados por Visual Studio
+*.log
+*.vspscc
+*.vssscc
+*.scc
+idx/
+
+# Archivos de salida de la aplicación
+*.Publish.xml
+*.publishsettings
+
+# Navegador de pruebas de Visual Studio
+*.browser
+
+# Herramientas de compilación
+_msbuild/
+msbuild.log
+msbuild.err
+
+# Archivos de depuración
+*.suo
+*.user
+*.pdb
+*.cache
+*.opendb
+*.VC.db
+
+# Versión de estudio de Android
+*.apk
+*.aab
+
+# Archivos de caché de ReSharper
+_ReSharper*/
+
+# Archivos de caché de dotCover
+*.dotCover
+
+# Herramientas de despliegue de SQL Server
+*.publish.xml
+
+# Otros archivos y carpetas generados por Visual Studio
+[Tt]humbs.db
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
