@@ -1,9 +1,10 @@
-using system; 
+using System;
+
 namespace gallinero
 {
     class Program
     {
-        static void main(sting[] args)
+        static void Main(string[] args)
         {
             int alimento = 10;
             int canasta = 0;
@@ -13,8 +14,8 @@ namespace gallinero
             coco.estaviva = true;
             coco.tienehambre = true;
             coco.duen = "Juan";
-            
-            gallina pepa =  new gallina();
+
+            gallina pepa = new gallina();
             pepa.estaviva = true;
             pepa.tienehambre = true;
             pepa.duen = "Pedro";
@@ -22,15 +23,15 @@ namespace gallinero
             coco.alimentar(ref alimento);
             pepa.alimentar(ref alimento);
 
-            canasta+= coco.ponerHuevos();
-            canasta+= pepa.ponerHuevos();
+            canasta += coco.ponerHuevos();
+            canasta += pepa.ponerHuevos();
             zorro a = new zorro();
             a.tienehambre = true;
             a.alimentar(coco);
-        
-        } 
+            Console.WriteLine(coco.estado());
+        }
     }
- 
+
 }
 
 
